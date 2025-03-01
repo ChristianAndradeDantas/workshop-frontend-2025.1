@@ -1,0 +1,149 @@
+<!--
+
+Curiosidade: Esse código foi (quase) totalmente por mim enquanto estava no P1 & P2 vendo sobre HTML & CSS.
+Apenas fiz alguns ajustes para adiconar algumas coisas, como a parte das cartas.
+Não vou negar, está bem bagunçado (afinal, o código foi escrito por um novato).
+
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon's Clássicos</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+
+    <link href="stylesheet.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+    <script type="text/javascript">
+        alert("AVISO: O uso de imagens com direitos autorais é utilizado de forma educacional, por um estudante aprendendo.")
+    </script>
+    <div class="topo">
+        <details class="languages">
+            <summary>Linguagem</summary>
+                <input type="checkbox" checked disabled style="width: 15px; height: 15px"> <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/640px-Flag_of_Brazil.svg.png" width="20px"> Português (BR)
+        </details>
+
+        <div class="toptext">
+            <h1>Pokémon's Clássicos Originais (primeira geração)</h1>
+            <p>Charmander, Bulbasaur e Squirtle, qual escolher?</p>
+        </div>
+
+        <div class="filler">
+            <!-- Apenas para equilibrar o flexbox no CSS -->
+        </div>
+    </div>
+
+    <div class="imagens">
+        <div class="charmander">
+            <h2>Charmander</h2>
+            <a href="https://www.pokemon.com/br/pokedex/charmander" target="_blank">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/004.png" alt="Imagem do Pokémon Charmander"> <br>
+            </a>
+            <p1><sub>Classe: Fogo</sub></p1>
+        </div>
+        <div class="bulbasaur">
+            <h2>Bulbasaur</h2>
+            <a href="https://www.pokemon.com/br/pokedex/bulbasaur" target="_blank">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.png" alt="Imagem do Pokémon Bulbasaur"> <br>
+            </a>
+            <p1><sub>Classe: Grama</sub></p1>
+        </div>
+        <div class="squirtle">
+            <h2>Squirtle</h2>
+            <a href="https://www.pokemon.com/br/pokedex/squirtle" target="_blank">
+                <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/007.png" alt="Imagem do Pokémon Squirtle"> <br>
+            </a>
+            <p1><sub>Classe: Água</sub></p1>
+        </div>
+    </div>
+    <div class="curiosidade">
+        <h1>Algumas curiosidades</h1>
+    </div>
+    <div class="curiosidades">
+        <h1><i>Curiosidade #1:</i></h1> <br>
+        <p1>• Esses três Pokémon's apareceram pela primeira vez na primeira trilogia do GameBoy: <strong><em>Pokémon Red, Blue e Green</em></strong>.</p1> <br> <br> <hr> <br>
+        <div class="imagembackground">
+        <img src="https://images.immediate.co.uk/production/volatile/sites/3/2021/04/pokemon-red-74864ea.png" alt="Screenshot do primeiro jogo de Pokémon" width="500px"><br><sup>Fonte da imagem: <a href="https://www.radiotimes.com/technology/gaming/pokemon-games-in-order/" class="imagesource">https://www.radiotimes.com/technology/gaming/pokemon-games-in-order/</a></sup> <br>
+        </div> <br> <hr> <br>
+        <p1>• Já que são os primeiros Pokemon's selecionáveis no primeiro jogo, isso faz com que eles sejam os primeiros Pokémon's utilizáveis em toda a franquia.</p1> <br> <br> <hr> <br>
+        <h1><i>Curiosidade #2:</i></h1> <br>
+        <p1>• As formas evoluídas do Charmander são o <b>Charmeleon e o Charizard</b>;</p1> <br>
+        <p1>• As formas evoluídas do Bulbasaur são o <b>Ivysaur e o Venusaur</b>;</p1> <br>
+        <p1>• As formas evoluídas do Squirtle são o <b>Wartortle e o Blastoise</b>.</p1> <br> <br> <hr> <br>
+        <table>
+            <tr>
+                <th style="border-top-left-radius: 8px">Forma inicial</th>
+                <th>Evolução 1</th>
+                <th style="border-top-right-radius: 8px">Evolução 2</th>
+            </tr>
+            <tr class="tableorange">
+                <td>Charmander <br> <br> <a href="https://www.pokemon.com/br/pokedex/charmander" target="_blank"><img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/004.png" height="100px" alt="Imagem do Pokémon Charmander" title="Charmander"></a></td>
+                <td>Charmeleon <br> <br> <a href="https://www.pokemon.com/br/pokedex/charmeleon" target="_blank"><img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/005.png" height="100px" alt="Imagem do Pokémon Charmeleon" title="Charmeleon"></a></td>
+                <td>Charizard <br> <br>  <a href="https://www.pokemon.com/br/pokedex/charizard" target="_blank"> <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/006.png" height="100px" alt="Imagem do Pokémon Charizard" title="Charizard"></a></td>
+            </tr>
+            <tr id="tablegreen">
+                <td>Bulbasaur<br> <br> <a href="https://www.pokemon.com/br/pokedex/bulbasaur" target="_blank"><img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.png" height="100px" alt="Imagem do Pokémon Bulbasaur" title="Bulbasaur"></a></td>
+                <td>Ivysaur<br> <br> <a href="https://www.pokemon.com/br/pokedex/ivysaur" target="_blank"><img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/002.png" height="100px" alt="Imagem do Pokémon Ivysaur" title="Ivysaur"></a></td>
+                <td>Venusaur<br> <br> <a href="https://www.pokemon.com/br/pokedex/venusaur" target="_blank"><img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/003.png" height="100px" alt="Imagem do Pokémon Venusaur" title="venusaur"></a></td>
+            </tr>
+            <tr id="tableblue">
+                <td style="border-bottom-left-radius: 8px;">Squirtle<br> <br> <a href="https://www.pokemon.com/br/pokedex/squirtle" target="_blank"><img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/007.png" height="100px" alt="Imagem do Pokémon Squirtle" title="Squirtle"></a></td>
+                <td>Wartortle<br> <br> <a href="https://www.pokemon.com/br/pokedex/wartortle" target="_blank"><img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/008.png" height="100px" alt="Imagem do Pokémon Wartortle" title="Wartortle"></a></td>
+                <td style="border-bottom-right-radius: 8px;">Blastoise<br> <br> <a href="https://www.pokemon.com/br/pokedex/blastoise" target="_blank"></a><img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/009.png" height="100px" alt="Imagem do Pokémon Blastoise" title="Blastoise"></td>
+            </tr>
+
+        </table> 
+        <br> 
+        <hr>
+        <br>
+
+        <h1><i>Curiosidade #3:</i></h1>
+        <br>
+        <p>• Esses mesmos Pokémon's também receberam várias versões ao se tornarem <strong>cartas</strong>: </p>
+        <br>
+        <hr>
+        <br>
+        <div class="cartas">
+            <img src="https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SV3PT5/SV3PT5_PT-BR_4.png">
+            <img src="https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SV3PT5/SV3PT5_PT-BR_5.png">
+            <img src="https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SV3PT5/SV3PT5_PT-BR_6.png">
+            <img src="https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SV3PT5/SV3PT5_PT-BR_1.png">
+            <img src="https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SV3PT5/SV3PT5_PT-BR_2.png">
+            <img src="https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SV3PT5/SV3PT5_PT-BR_3.png">
+            <img src="https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SV3PT5/SV3PT5_PT-BR_7.png">
+            <img src="https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SV3PT5/SV3PT5_PT-BR_8.png">
+            <img src="https://assets.pokemon.com/static-assets/content-assets/cms2-pt-br/img/cards/web/SV3PT5/SV3PT5_PT-BR_9.png">
+        </div>
+
+        <br>
+        <hr>
+        <br> 
+        
+    </div>
+
+       
+
+    <div class="vermais"><center>
+        <a href="https://pokemon.fandom.com/wiki/Category:Generation_I_Pok%C3%A9mon" target="_blank">
+            <button>Ver mais</button>
+        </a></center> <br>
+    </div><hr>
+
+
+
+    <div class="baixo">
+        <p1>Páginas Wiki:</p1> 
+        <a href="https://www.pokemon.com/br/pokedex/charmander" target="_blank">Charmander</a> 
+        <a href="https://www.pokemon.com/br/pokedex/bulbasaur" target="_blank">Bulbasaur</a> 
+        <a href="https://www.pokemon.com/br/pokedex/squirtle" target="_blank">Squirtle</a>
+    </div>
+</body>
+</html>

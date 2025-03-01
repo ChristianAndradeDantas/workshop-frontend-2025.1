@@ -1,0 +1,155 @@
+/*
+
+Nessas linhas, basicamente, está todo o meu conhecimento em CSS.
+Ainda irei aprender coisas como animações e transform.
+Além disso, sou péssimo com o tailwind.
+
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    background-color: #BBB;
+    overflow-x: scroll;
+}
+.topo{
+    border-bottom: 2px solid black;
+    background: linear-gradient(#4b4b4b, #555);
+    font-family: "SUSE", sans-serif;
+    color: #BBBBBB;
+    padding: 15px;
+    /* Developer commentary: Color of top should be gray, as a nice way to contrast with the colorful Pokémons */
+    display: flex;
+}
+.toptext{
+    flex: 5;
+    text-align: center;
+}
+.toptext h1 {
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); 
+    font-size: 45px;
+}
+.toptext p {
+    font-style: italic; 
+}
+.filler{
+    flex: 1;
+}
+details{
+    float: left;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    flex: 1;
+}
+details a{text-decoration:none}
+details a:visited{
+    color: white
+}
+.charmander{
+    background-color: #d68e35;
+    text-align: center;
+    color:#583a16;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px;
+    flex: 1;
+    border-right: 2px solid black;
+}
+.bulbasaur{
+    background-color: #83cc3a;
+    text-align: center;
+    color:#2e4714;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px;
+    flex: 1;
+}
+.squirtle{
+    background-color: #6da7ca;
+    text-align: center;
+    color:#2b3f4d;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px;
+    flex: 1;
+    border-left: 2px solid black;
+}
+.imagens{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    overflow-x:scroll;
+}
+.curiosidade{
+    text-align: center;
+    background: linear-gradient(#4b4b4b, #555);
+    font-family: "SUSE", sans-serif;
+    color: #BBB;
+    padding: 15px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black
+}
+.curiosidade > h1 {
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5)
+}
+.curiosidades{
+    background-color: #BBB;
+    text-align: left;
+    color: #000;;
+    padding: 30px;
+    flex: 1;
+    font-family: "SUSE", sans-serif;
+    margin-bottom: 0px;
+}
+.imagembackground{
+    background-color: #999999;
+    text-align: center;
+    overflow: hidden;
+}
+hr{border-color:#000}
+.baixo{
+    background: linear-gradient(#444, #333) ;
+    text-align: center;
+    color: #000;
+    flex: 1;
+    padding:15px;
+    font-family: "SUSE", sans-serif;
+}
+.baixo a{color: rgb(43, 112, 158)}
+.baixo a:hover{color:rgb(122, 200, 252)}
+table{
+    background-color: black; 
+    text-align: center; 
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2); 
+    margin-left: auto; 
+    margin-right: auto; 
+    border-radius: 10px;
+}
+th{background: linear-gradient(#777, #999); padding: 15px;}
+td{padding: 15px;}
+th, td{font-family: "SUSE", sans-serif}
+.tableorange td {background-color: #d68e35;}
+#tablegreen td {background-color: #83cc3a;}
+#tableblue td {background-color: #6da7ca;}
+.vermais{padding: 20px; margin-left: auto; margin-right: auto;}
+.vermais button{
+    font-family: "SUSE", sans-serif;
+    margin-left: auto; margin-right: auto;
+    font-size: 50px; 
+    width: 300px; 
+    border: 3px solid black; border-radius: 30px;
+    background-color: #aaa;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5)}
+.vermais button:hover{background-color: #dddddd; cursor: pointer}
+.vermais button:active{background-color: rgb(134, 134, 134)}
+.imagesource{color: black}
+.imagesource:hover{text-decoration: underline rgb(30, 92, 184); color: rgb(30, 92, 184)}
+.imagens img {
+    height: 300px;
+}
+.cartas {
+    display: flex;
+    overflow-x: scroll;
+}
+.cartas img {
+    flex: 1;
+    height: 400px;
+}
