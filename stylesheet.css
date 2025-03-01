@@ -14,7 +14,6 @@ body {
     overflow-x: scroll;
 }
 .topo{
-    border-bottom: 2px solid black;
     background: linear-gradient(#4b4b4b, #555);
     font-family: "SUSE", sans-serif;
     color: #BBBBBB;
@@ -46,6 +45,30 @@ details a{text-decoration:none}
 details a:visited{
     color: white
 }
+header {
+    display: flex;
+    font-family: "SUSE", sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+header a {
+    border-top: 2px solid black; border-bottom: 2px solid black;
+    border-left: 1px solid black; border-right: 1px solid black;
+    flex: 1;
+    text-decoration: none;
+    background-color: #999;
+    color: black;
+    padding-bottom: 10px; padding-top: 10px;
+}
+
+header a:visited{
+    color: black;
+}
+
+header a:hover{
+    background-color: #c5c5c5;
+}
+
 .charmander{
     background-color: #d68e35;
     text-align: center;
